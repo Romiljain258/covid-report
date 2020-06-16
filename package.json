@@ -1,0 +1,24 @@
+{
+  "name": "covidreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romiljain258/covid-19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romiljain258/covid-19/issues"
+  },
+  "homepage": "https://github.com/Romiljain258/covid-19#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "novelcovid": "^2.2.0"
+  }
+}
