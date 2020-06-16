@@ -1,7 +1,19 @@
-<h1 style="text-align : center">Covid-19</h1>
+<style>
+    .center{
+        display : block;
+        margin-left : auto;
+        margin-right : auto;
+    }
+</style>
+<h1 style="text-align : center">Covid-19 Tracker</h1>
 
+ 
 {{!-- // this is loop of ifo loop --}}
 {{#each info}}
-
-<img src="{{this.countryInfo.flag}}"></img>
+    <h2 style="text-align : center;">{{this.country}}</h2>
+    <img class="center" src="{{this.countryInfo.flag}}"></img><br>
+    <div class="center" style="text-align : center;">
+    <div>Total cases : <strong>{{this.cases}}</strong></div>
+    </div>
 {{/each}}
+
